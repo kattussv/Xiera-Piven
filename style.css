@@ -1,0 +1,45 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding: 20px 60px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo span{
+    margin-left: 16px;
+    color: black;
+}
+.nav{
+    display: flex;
+}
+.nav li{
+    list-style-type: none;
+    margin-right: 32px;
+}
+.button-group a{  
+    text-decoration: none;  
+    margin-right: 32px;  
+    color: black;  
+}
+.button-group a:hover{  
+    color: #dddddd; 
+} 
+.button-group .log_in{  
+    padding: 10px 20px;  
+    border:none;  
+    margin-right: 8px;  
+    color: #28344A;
+}
+
+.button-group .creat_account{  
+    padding: 22px 16px;  
+    border-radius: 34%; 
+    background-color: #864BD8;
+    color: white;  
+}  
+.button-group .creat_account:hover{  
+    background-color: #df1abe;  
+}
