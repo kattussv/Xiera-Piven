@@ -1,45 +1,127 @@
-body{
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    padding: 20px 60px;
+body{ 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: bold; 
+    padding: 20px 60px; 
 }
-.header{
+.header{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+.nav{ 
+    display: flex; } 
+.nav li{ 
+    list-style-type: none; 
+    margin-right: 32px; } 
+.button-group a{   
+    text-decoration: none;   
+    margin-right: 32px;   
+    color: black;}  
+.button-group a:hover{   
+    color: #dddddd; }
+
+.button-group .log_in{   
+    padding: 10px 20px;   
+    border:none;   
+    margin-right: 8px;   
+    color: #28344A; 
+} 
+ 
+.button-group .creat_account{   
+    padding: 22px 16px;   
+    border-radius: 34px;  
+    background-color: #864BD8; 
+    color: white;   
+    font-style: normal;
+}   
+.button-group .creat_account:hover{   
+    background-color: #df1abe;  }
+
+.section1{
     display: flex;
-    align-items: center;
+    margin-top: 100px;
     justify-content: space-between;
 }
-.logo span{
-    margin-left: 16px;
+h1{
+    font-size: 42px;
+    text-align: center;
+}
+.section1 .block{
+    width: 420px;
+}
+.block p{
+    font-weight: 200;
+    font-size: 20px;
+}
+.block{
+    text-align: center;
+}
+.donat{
+    background-image: url(images/doodle-4\ 1.png);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+}
+h2{
+    text-align: center;
+}
+.section2{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;}
+.button-group a{
+    border:#E6E6E6 1px solid;
+    border-radius: 19.5px;
+    padding: 7px;
+    justify-content: space-between;
+}
+.text{
+    color:#0D8772;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.section_3 p{ 
+    font-size: 25px; 
+} 
+.section_3 h3{
     color: black;
 }
-.nav{
-    display: flex;
+.section_3 h1{
+    text-align: center;
 }
-.nav li{
-    list-style-type: none;
-    margin-right: 32px;
-}
-.button-group a{  
-    text-decoration: none;  
-    margin-right: 32px;  
-    color: black;  
-}
-.button-group a:hover{  
-    color: #dddddd; 
+ 
+.item{ 
+    display: flex; 
+    margin-top: 80px; 
+    justify-content: space-around; 
 } 
-.button-group .log_in{  
-    padding: 10px 20px;  
-    border:none;  
-    margin-right: 8px;  
-    color: #28344A;
+.item li { 
+    width: 330px; 
+    list-style-type: none; 
+} 
+.item li img{ 
+    margin-bottom: 32px; 
+} 
+ 
+.item li p{ 
+    font-size: 14px; 
+    color:#6F6F75;
+    ;
+} 
+.section_3{ 
+    margin-top: 100px; 
+    text-align: center;       
+} 
+.section_4{
+    background-color: #EFEEF3;
 }
-
-.button-group .creat_account{  
-    padding: 22px 16px;  
-    border-radius: 34%; 
-    background-color: #864BD8;
-    color: white;  
-}  
-.button-group .creat_account:hover{  
-    background-color: #df1abe;  
+h3{ color: #864BD8;}
+h1{text-align: left;}
+p{color: #5B5A62;}
+.images{
+    margin-bottom: 32px;
 }
