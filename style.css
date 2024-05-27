@@ -64,6 +64,7 @@ h1{
     background-position: center;
 }
 h2{
+    
     text-align: center;
 }
 .section2{
@@ -91,17 +92,21 @@ h1{
     color: black;
 }
 .section_3 h1{
+    margin-top: 100px;
     text-align: center;
 }
  
 .item{ 
     display: flex; 
-    margin-top: 80px; 
-    justify-content: space-around; 
 } 
-.item li { 
-    width: 330px; 
-    list-style-type: none; 
+.item li {   
+    list-style-type: none;
+    justify-content:space-between;
+    justify-content: space-around;
+    padding: 25px 6px; 
+    border-radius: 16px;
+    border: 1px solid #F2F2F2;
+    
 } 
 .item li img{ 
     margin-bottom: 32px; 
@@ -122,6 +127,8 @@ h1{
 h3{ color: #864BD8;}
 h1{text-align: left;}
 p{color: #5B5A62;}
-.images{
-    margin-bottom: 32px;
+
+.gucci{
+    border-radius: 16px;
+    border: 1px solid  #F2F2F2;
 }
